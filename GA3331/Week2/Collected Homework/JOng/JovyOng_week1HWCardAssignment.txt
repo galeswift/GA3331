@@ -1,0 +1,38 @@
+Card Game week1Assignment
+
+Rules:
+
+
+-2 player game.
+
+-Only 1 deck is needed to play, no joker cards
+
+-Cut the deck in half so that each player has 26 cards
+
+-Each player draws 2 cards from their deck to their hand
+
+-The objective of the game is to be the first player to have cards in their hand that sums up to 21 or as close to 21, but not over 21.
+
+-When the game starts and both players already finish drawing 2 cards each, they can start drawing cards from their deck as much as they want to reach the value of 21 total or something close to 21 but not over 21.
+
+-The Ace = 1 or 11(player decides based on his/her other cards)
+-Jack, Queen, King = 10
+
+-Players must race to place their cards on the table first because whoever gets a value of 21 or closer to 21, placed on the table first, that player wins that round.
+
+-For example, if player1 placed down a value of 18 and player2 placed down a value of 20, player 2 wins that round.
+
+-Another example, if player1 places his hand of cards on the table, player2 should automatically place his/her cards also. No more drawing from the deck is allowed after one of the players placed their cards on the table.
+
+-Whoever wins that round will take all the cards placed on the table.
+
+-If a player exceeds the value of 21 in their hand, he/she must place down his/her hand. And the opposing player automatically wins that round providing that he/she did not exceed the value of 21.
+
+-In case both players place down cards with the same sum, this round will be considered as a draw. The cards placed in that round will be set aside until someone wins a round. So if one player wins the next round, he/she takes the cards placed aside the previous draw round.
+
+
+-The game ends after 5 rounds(maximum).
+
+-The player who has more cards wins the game.
+
+-If a player loses all his cards, he/she automatically loses the game

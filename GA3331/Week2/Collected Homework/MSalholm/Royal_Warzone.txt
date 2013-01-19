@@ -1,0 +1,47 @@
+Royal Warzone
+-------------
+
+Pregame:
+--------
+The game starts with two decks of cards, no jokers.
+Each player shuffles their deck and then draws the top five cards.
+They may discard those cards to reshuffle and get a new set of cards, one less for each reshuffle.
+
+
+Gameplay:
+---------
+There are a total of five turns.
+Each turn plays out as follows.
+Start:
+-Both players may choose to discard a card from their hand face down to the battlefield and draw a new card.  This can be done only once.
+-At the beginning of each turn, the losing player from last turn may refill their hand up to a hand of five cards.
+-Both players reveal the top card of their deck and put it onto the battlefield face up.
+
+Middle:
+-At any time, a player may override the card on their side of the battlefield with a card from their hand.
+-The highest value card wins the round.  Aces win over Kings.
+-If two cards are the same value, both players put the top three cards from their deck face down onto the battlefield, then flip one to resolve the tie.
+-After resolving a tie, all other face down cards on the battlefield are revealed.
+-Players can still override cards from their hand to win a tie after the card is revealed.
+-Additional ties can be forced.
+-A tie can also be forced by putting down a pair of the same value cards from the player's hand at once.  This overrides both sides of the battlefield.
+
+End:
+-The winning player takes all cards on the battlefield and puts the non-face cards on the bottom of their deck.
+-The winning player takes the top five cards from the opponent's deck and places it on the bottom of their deck.
+-All face cards stay out in the royalty zone, making them not on the battlefield.
+-Winning a turn with a jack steals an additional five cards.
+-Winning a turn with a queen steals an additional ten cards and any jacks in the royalty zone.
+-Winning a turn with a king steals an additional fifteen cards and any queens and jacks in the royalty zone.
+-Winning a turn with an ace let's the winner choose to switch hands, decks, or both and then take their winnings.
+
+
+Endgame:
+--------
+If at any time a player goes to draw and there are no cards to draw from, that player loses.
+At the end of the fifth turn, the player with the most cards in the royalty zone steals the opponent's entire deck and therefor wins.
+
+
+Credits:
+--------
+Myles Salholm
