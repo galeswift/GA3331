@@ -1,0 +1,48 @@
+Exam 1 and UDK, Kismet and usefulness in the game industry. Why UDK?  Examples.
+
+Exam 1 - Reading materials
+
+UDK
+Kismet
+How are these useful in game industry
+
+Lab 1
+Toggling + Actors
+Lights
+Matinee
+Doors with keys
+Make a game using this
+Concentration
+red light/green light
+Aventures of lolo
+
+Lab 2
+Camera
+Third person
+Top Down
+Side Scrolling
+Make a game using this
+Solomon quest
+Pac man
+
+Powerpoint
+What is UDK (Unreal Development Kit)
+
+	The free edition of Unreal Engine 3 
+What is UDK (Unreal Development Kit)
+
+	The Editor (with content)
+What is UDK (Unreal Development Kit)
+
+	Kismet
+What is UDK (Unreal Development Kit)
+
+	Unrealscript, for basic Unreal weapons and example gameplay
+What isn’t UDK?
+	Native C++ code
+	A lot of Unreal content
+Lab #1
+	UDK – Triggers, Matinee, and Camera
+Lab #2
+	Prototype!
+
