@@ -21,6 +21,7 @@ function OnSetMesh(SeqAct_SetMesh Action)
 			StaticMeshComponent.bAllowDecalAutomaticReAttach = Action.bAllowDecalsToReattach;
 			StaticMeshComponent.SetStaticMesh( Action.NewStaticMesh, Action.bAllowDecalsToReattach );
 			StaticMeshComponent.bAllowDecalAutomaticReAttach = true;
+			StaticMeshComponent.SetActorCollision(false, false, false );
 		}
 	}
 	else if (Action.MeshType == MeshType_SkeletalMesh)
