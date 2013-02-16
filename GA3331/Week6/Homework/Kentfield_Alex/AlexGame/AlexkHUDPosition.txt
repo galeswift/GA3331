@@ -1,0 +1,5 @@
+Scale X 1280
+Scale Y 600
+
+Position X 0
+Position Y 130
