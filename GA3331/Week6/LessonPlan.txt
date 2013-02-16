@@ -1,0 +1,67 @@
+Designing for different player types (Mass Market, Hardcore, Casual).  
+	Abilities of the target market
+			Reading ability
+			Learning Curve
+				Controller
+			Common conventions for experienced players may actually confuse newer ones
+				Life meters, hit points, subscreens, HUDs
+				If you include these, you may have to explain them more
+			Cognitive abilities
+			Learning Style
+			Physical Abilities
+			Tactical Desires
+	Targeting the mass market gamer instead of a limited demoraphic
+		Try to avoid excluding anyone
+		Eurogames are a specific example
+			Typically played in 20-90 minutes
+			Short setup time
+			Simple rules, short learning curve
+			Cooperative, no confrontational (trading/negotiaion)
+			Has strategic decision making along with measured randomness
+			Minimal player downtime
+	Chance Versus Skill
+		Finding the balance
+Lab #1 In class challenge
+		FPS for girls
+		Using the DR dance pad for five different uses, each for a different market 
+			Better if it doesn't involve dancing
+		Deer hunter was really popular with wal-mar shopper.  
+			The game was intended for wal mart shoppers, now make another.			
+		Educational MMO
+Rewards instead of punishments "Framing"
+	Hotel registration - discount for early registering, NOT a penatly for late registreing
+	WoW exp rested bonus
+	Examples of other types of framing?
+
+Multiplayer games
+	How do you define a multiplayer game?
+		Quantity-based distinctions
+			2 players versus 2000
+	What kind of play is involved?
+		Real Time
+		Turn based
+		Competitive
+		Cooperative
+		Usually games are a mix of these
+	Technology based
+		MUDs
+		MMO
+		LAN
+		Services like xbox live/steam
+	How does it change design?
+		You have to consider dynamic scalability.  Players go in and out
+		Griefing
+		Community formation and support
+		Attracting new and old players
+		Issues with interfaces
+Lab #2 Playtest unreal tournament deathmatch, and improve it
+
+Gametypes within UDK
+	Deathmatch
+	Team deathmatch
+	Vehicle CTF
+	Bombing run
+	
+Lab #3 (if time), start on bombing run
+
+Homework: 
