@@ -1,0 +1,31 @@
+Present lab work from last week
+Rules and constraints
+	Additive and subtractive design
+		Why Add mechanics?
+			Note, this can be very costly
+			Ideally, you know about all the mechanics before they enter production, but this doesn't always happen
+			Publisher demand (they give you the moneyz)
+			Changes in the marketplace
+			The game sucks
+			You're making a sequel
+			The brainstorm
+		Why remove mechanics?
+			This can be VERY costly as well
+			Publishing
+			Marketing conditions
+			Fixing bad gameplay
+			Ratings
+			Delivering on or in better tim
+			Checking features against the core checklist
+		Lab - Challenge - Mix a mechanic from an existing board game with another game
+Game intensity
+	http://www.gamasutra.com/view/feature/132242/gameplay_fundamentals_revisited_.php?print=1
+The Learning Curve
+	http://thegamedesignforum.com/features/lessons_from_the_new_arcade.html
+Fulfillment and Rewards
+	Wish fullfilment - http://www.gamasutra.com/view/feature/134246/reward_systems_an_excerpt_from_.php?print=1
+	http://www.gamasutra.com/view/feature/3085/behavioral_game_design.php
+The “Farmville” effect
+	http://www.gamasutra.com/blogs/MarkNewheiser/20091204/3733/Farmville_Social_Gaming_and_Addiction.php
+Lab - Capture the flag
+	Homework
