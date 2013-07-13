@@ -21,7 +21,7 @@ Design docs
 Game development life cycle
 
 Analog Prototype:
-War as a card game
+War as a card game (LAB)
 Change War:
 	Requirement
 		Be able to steal cards
