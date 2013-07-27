@@ -1,0 +1,143 @@
+Game fight presentations
+Powerpoint for end of week 2
+Powerpoint for week 3
+SVN Discussion
+Introduction to Unity
+	Scene View - where you edit
+	Heirarchy - all objects in the scene in alphabetical order (including parenting, a way of grouping objects)
+	Game view - When you press play, this becomes active
+	Project - All assets that belong to your project
+	Inspector - context sensitive panel, show properties of whatever object/asset/panel you've selected
+	Play/controls - play/pause/advance
+	Manipulators - move/rotate/scale, local/world space, center/pivot point based rotation
+	Layers dropdown - useful for showing/hiding content. 
+	layout dropdowns - adjusting interface overview
+	
+Scene view
+	Q/W/E/R
+	Left mouse = move
+	Right mouse = rotate
+	ALT + Left mouse = orbit
+	ALT + rigt mouse = zoom
+	right mouse + WASD = move like FPS
+	F = focus on object
+	Searching/filtering
+	gizmo editing
+	view gizmo (ortho/perspective)
+	CTRL + D = duplicate
+	
+Game view
+	Can be paused/stepped forward
+	You can tweak values while in play mode.  This is temporary if you're trying to edit game objects (not assets)
+	Setting resolution specific to target platform
+		Change in file->Build settings
+		Edit->Project Settings->Player
+	Maximize on play
+	Editing color in play mode
+Heirarchy
+	A-z order
+	Heirachys represent groups, topmost object is a parent, while the rest are children
+		They transform together
+	Parent transforms
+		Translation is now based on the parent
+		Moving/scaling
+	Add Object menu
+	Search
+		Behaves like the other search
+		T: (lets you search for types), ie: T:Light
+		Bottom of heirarchy shows path to the object found
+Project panel
+	Any assets you create or import will be placed here
+		Importing (import through menu or add to the folder)
+	If you want to move files around, use the project panel, not explorer
+	One/Two column view
+	Reorder
+	label
+	preview assets (Slider at bottom)
+	You can filter and Sort/search - by name/type/label or by favorite groupings
+		Star button will 'favorite' a group or search
+	You can search the asset store too, but changing the search typ efrom "Asset" to "Asset Store"
+Inspector
+	Static checkbox
+	tag/layer dropdowns
+	Component list (ie: transform)
+		Click and drag values
+		Click/retype values
+		You can reset the value using the 'cog' icon
+		Documentation viewable with the blue book
+	Inspector changes to whatever you have selected
+	You can lock the inspector if clicking objects would change context
+		ie: For setting textures
+	Finding references by clicking the textures/material previews
+	You can disable components with the checbkox
+	Checkbox at the top of the object can disable the entire object
+
+Game objects
+		In the scene
+		made up of components
+		typically a transform component
+		Can add components with button or menu
+		Scripts are also considered components
+		You can remove/copy+paste components
+		You can drag+drop things from the project view into almost anywhere
+		
+Tags
+	Tagging multiple game objects together, ie: "Enemy"
+	Used in scripts, to find game objects.  GameObject.FindWithTag("");, or FindGameObjectsWithTag
+
+Prefabs
+	Can be placed or spawned in game
+	To make, make a game object first into your scene, with any components you need
+	Then drag it to the project panel to create it as a prefab
+	then you can delete it from the scene
+		You can edit changes using the "Apply" button if you want to place the object first
+
+Buildling your games
+
+
+Lab work for Unity + Playmaker
+	Introduction to states
+		What is a state?
+			Super common.. you probably didn't know it
+			A really convenient way to track the conditions and behaviors of an object at any time
+		State machine
+			A bunch of these states connected together with events to form a system
+		Real world example
+			Light switch
+				What states are there
+				What events take you from one state to another
+				Can't turn a light switch that's on, already on
+			Doors
+		Add new FSM
+			Explain start box, first thing that happens for this object
+				Maybe on a monster this is what happens first
+			Explain State 1 (First state)
+			We're going to need two states (off/on)
+				Can move wherever you want
+			Can relabel states
+		Creating events
+		Creating transitions
+		Creating links between transitions and states
+		Action browser 
+			GUI Buttons On/Off butons
+		Press Play and show real-time state debugging
+		Show how to modify intensity of the light
+		Action to set the light intensity
+
+		Lab exercises after each one
+1. Light switch
+2. Open/close states
+	Treasure chest
+3. Triggers
+	Changing text 
+4. Variables
+5. Clicking to change color of cube - using fsm
+6. Buliding third person controller
+
+
+Examples
+	https://hutonggames.fogbugz.com/default.asp?W880
+	C# Game Examples in unity store
+		
+Lab work
+	1. Race style Game
