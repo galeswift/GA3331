@@ -1,0 +1,40 @@
+Item Card:
+
+Cost(Gold)/Cost(items)
+Stats/Benefits
+Passive/Active
+Consumable/Persistent
+
+Health Potion:
+45gold
++10 Heath/turn for 3 turns
+Active (use at any time)
+Consumable (Discard after use)
+
+B.F. Sword
+100g
++45 attack damage
+pasive item
+Persistant
+
+Trinity Force:
+3000g
+Stats:	+100 Health
+	+75 Mana
+	+10 Attack
+	+10 Magic
+Passive: Slows enemy champions attack, skipping their next attack phase
+Passive: After using an ability double the inflicted damage
+
+Elixir of Fortitude
+350gold
++120-235 based on level and +15 attack Damage 
+Active for 3 turns
+Consumable (discard after 3 turns)
+
+Brawler’s Gloves
+400 gold
++8% critical strike chance 
+Passive Item
+Persistent
+
