@@ -1,0 +1,33 @@
+Anthony Merola
+7/27/2013
+Game Prototyping
+
+DBZ
+Players (2)
+Materials:
+(1) Game Board
+(1) Yellow Token
+(2) Red Token
+(1) Deck of playing cards
+(1) Twenty Sided Die
+
+Rules
+
+- Players each have a REd token placed on their seventh Dragon ball
+
+- The Yellow token is placed on the yellow marker in the center of the battle
+
+- Player draw two cards and add up their total (Face cards = 10, Ace = 1, Jokers = 0)
+
+- The player will have three rolls of the die to match the number they have drawn,
+  if they reach that number, they will move the Yellow Token over one space (arrow) towards their opponent, completeing the turn.
+
+- If the player fails to reach the number, the token does not advance and the turn is completed.
+
+- The object of the game is for players to move the center token to the end of the arrows to land on their opponant's Character,
+  scoring a hit, for each completed round, the player hit must move their Red Token down one Dragon ball and the Yellow Token is reset in the center.
+
+	- KAMEHAMEHA!!!: If a player draws a 1 (a Joker and an Ace) they are given 5 rolls and only win the round if they roll a 1,
+	  if the player rolls a 1, they automatically score a hit and the round resets
+
+- The Player who destroys all their opponent's dragon balls is the winner.
