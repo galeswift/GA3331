@@ -1,0 +1,219 @@
+Refresher course of two weeks ago
+	Lab work exercise 
+		Make a trigger that opens a door when you touch it.
+		Use triggers, character controllers, and iTween
+	Button that triggers a Chest that opens + plays animation
+	Managers
+		Global variables
+			Global variables are accessible from any script
+			Show how to make varibles global
+				Drop down menu
+				Or button on variables screen
+			Make two global variables
+				Current player health (as int)
+				Current player health (as string)
+		Create health manager Game object
+			Create a setup state
+			Create set int value action to initialize player health
+			Create a GUIText object to show player health on screen
+			Create a convert int to string action
+			Add action to set the GUIText to the health string
+			Create listener state on health manager
+		Create health pickup object
+			Add game object (health cross)
+			Make the object rotate
+			Add a trigger to the health object
+			Add a setup state to the trigger FSM
+			
+			Now we need to notify the health manager.
+			Could also just point to the health manager directly
+			Instead, we'll register the health manager into a global variable	
+			Now let's add a transition for the Health manager.
+			Now we are going to send an event to the health manager.
+		Let's actually add the health now
+		We have to update teh GUI Label again.  
+	Lab work - Remove health based on touching a platform
+=======
+Powerpoint #1
+	Designing for different player types (Mass Market, Hardcore, Casual).  
+		Abilities of the target market
+				Reading ability
+				Learning Curve
+					Controller
+				Common conventions for experienced players may actually confuse newer ones
+					Life meters, hit points, subscreens, HUDs
+					If you include these, you may have to explain them more
+				Cognitive abilities
+				Learning Style
+				Physical Abilities
+				Tactical Desires
+		Targeting the mass market gamer instead of a limited demoraphic
+			Try to avoid excluding anyone
+			Eurogames are a specific example
+				Typically played in 20-90 minutes
+				Short setup time
+				Simple rules, short learning curve
+				Cooperative, no confrontational (trading/negotiaion)
+				Has strategic decision making along with measured randomness
+				Minimal player downtime
+		Chance Versus Skill
+			Finding the balance
+	Lab #1 In class challenge
+			FPS for girls
+			Using the DR dance pad for five different uses, each for a different market 
+				Better if it doesn't involve dancing
+			Deer hunter was really popular with wal-mar shopper.  
+				The game was intended for wal mart shoppers, now make another.			
+			Educational MMO
+	Rewards instead of punishments "Framing"
+		Hotel registration - discount for early registering, NOT a penatly for late registreing
+		WoW exp rested bonus
+		Examples of other types of framing?
+
+	Multiplayer games
+		How do you define a multiplayer game?
+			Quantity-based distinctions
+				2 players versus 2000
+		What kind of play is involved?
+			Real Time
+			Turn based
+			Competitive
+			Cooperative
+			Usually games are a mix of these
+		Technology based
+			MUDs
+			MMO
+			LAN
+			Services like xbox live/steam
+		How does it change design?
+			You have to consider dynamic scalability.  Players go in and out
+			Griefing
+			Community formation and support
+			Attracting new and old players
+			Issues with interfaces
+	Gametypes within UDK
+		Deathmatch
+		Team deathmatch
+		Vehicle CTF
+		Bombing run
+
+
+Powerpoint #2
+	Rules and constraints
+		Additive and subtractive design
+			Why Add mechanics?
+				Note, this can be very costly
+				Ideally, you know about all the mechanics before they enter production, but this doesn't always happen
+				Publisher demand (they give you the moneyz)
+				Changes in the marketplace
+				The game sucks
+				You're making a sequel
+				The brainstorm
+			Why remove mechanics?
+				This can be VERY costly as well
+				Publishing
+				Marketing conditions
+				Fixing bad gameplay
+				Ratings
+				Delivering on or in better tim
+				Checking features against the core checklist
+			Lab - Challenge - Mix a mechanic from an existing board game with another game
+	Game intensity
+		http://www.gamasutra.com/view/feature/132242/gameplay_fundamentals_revisited_.php?print=1
+	The Learning Curve
+		http://thegamedesignforum.com/features/lessons_from_the_new_arcade.html
+	Fulfillment and Rewards
+		Wish fullfilment - http://www.gamasutra.com/view/feature/134246/reward_systems_an_excerpt_from_.php?print=1
+		http://www.gamasutra.com/view/feature/3085/behavioral_game_design.php
+	The “Farmville” effect
+		http://www.gamasutra.com/blogs/MarkNewheiser/20091204/3733/Farmville_Social_Gaming_and_Addiction.php
+
+	
+Using mouse pick for the physics pop
+	Reminderof physics pop
+	
+	
+Mouse pick move an object to a location
+	* Make a target first (A sphere)
+	Create a go_Clickmanager
+		* State Waiting on Click
+			* Mouse Button Down action
+			* Clicked Event
+		* Check if hit something state
+			* Mous epick action
+			* Make variable -> Did I Click an Object
+			* Make variable -> Where did I click
+			* Bool test action
+				* Make event -> Hit Object
+				* Make event -> Didn't hit object
+		* Set position action
+		* Notice you can click the object still moves.  Need to tag it
+		
+LAB: Spawn particle when you click on a spot
+	
+	Create a single cube
+	Add a rigid body component
+	Move the cube into the air to make sure it falls
+		
+	Create a go_Clickmanager
+		* State Waiting on Click
+			* Mouse Button Down action
+			* Clicked Event
+		* Check if hit something state
+			* Mous epick action
+			* Make variable -> Did I Click an Object
+			* Make variable -> What did I click
+			* Bool test action
+				* Make event -> Hit Object
+				* Make event -> Didn't hit object
+		* Hit Object state
+			* Add force action
+			* Add finished transition
+
+Lab work - Spawn a particle where you clicked
+
+
+Projectiles (Shooting gallery) - First person shooter 
+	We aren't using the click manager, so disable it 
+	Make a bullet
+		Assign a color sheet
+		object that moves forward in z
+		Physics based (Adding force)
+		Make it explode on touch by adding a trigger
+		Add a particle system
+		Make a prefab from this
+	Let's make the gun
+		Crosshairs on screen (GUI Texture) - or can lock the cursor using the Set Mouse action (Do this on the first person controller)
+		Hide the mouse
+		Hooking up click event 
+			* Do this on a new object that's a weapon, parented to the camera
+			* Reset the weapon position
+			* Make Idle-Firing-Cooldown states.  
+			* Clicked event
+			* Idle state -> Get Mouse Button Down action
+			* Firing State -> Create Object action
+				* Move the gun so it's a little bit forward of the player
+			
+		Spawn object from spawn point (in front of the camera)
+		Setting the rotation
+	Let's make a target that can die
+		Simple cube
+		Apply red material to it
+		Attach a trigger
+		Add a state for listneing
+			Trigger event
+			Trigger on enter, with bullet tag
+			( Make the bullet tag)	
+		Make "Hit by Bullet" event
+		Add a destroy target state
+			Add a destroy object action
+		Tag the bullet prefab now (Make sure to tag the trigger too)
+		Destroy the object and spawn a particle
+	Lab work - Make your own gun (Shotgun, machine gun, grenade launcher)
+	
+
+Homework - Game prototype : Explosion
+	
+For next time:
+	Enemies (top down arena)
+		Lab work
