@@ -1,0 +1,184 @@
+Review of last week
+=======
+Powerpoint #1
+	Designing for different player types (Mass Market, Hardcore, Casual).  
+		Abilities of the target market
+				Reading ability
+				Learning Curve
+					Controller
+				Common conventions for experienced players may actually confuse newer ones
+					Life meters, hit points, subscreens, HUDs
+					If you include these, you may have to explain them more
+				Cognitive abilities
+				Learning Style
+				Physical Abilities
+				Tactical Desires
+		Targeting the mass market gamer instead of a limited demoraphic
+			Try to avoid excluding anyone
+			Eurogames are a specific example
+				Typically played in 20-90 minutes
+				Short setup time
+				Simple rules, short learning curve
+				Cooperative, no confrontational (trading/negotiaion)
+				Has strategic decision making along with measured randomness
+				Minimal player downtime
+		Chance Versus Skill
+			Finding the balance
+	Lab #1 In class challenge
+			FPS for girls
+			Using the DR dance pad for five different uses, each for a different market 
+				Better if it doesn't involve dancing
+			Deer hunter was really popular with wal-mar shopper.  
+				The game was intended for wal mart shoppers, now make another.			
+			Educational MMO
+	Rewards instead of punishments "Framing"
+		Hotel registration - discount for early registering, NOT a penatly for late registreing
+		WoW exp rested bonus
+		Examples of other types of framing?
+
+	Multiplayer games
+		How do you define a multiplayer game?
+			Quantity-based distinctions
+				2 players versus 2000
+		What kind of play is involved?
+			Real Time
+			Turn based
+			Competitive
+			Cooperative
+			Usually games are a mix of these
+		Technology based
+			MUDs
+			MMO
+			LAN
+			Services like xbox live/steam
+		How does it change design?
+			You have to consider dynamic scalability.  Players go in and out
+			Griefing
+			Community formation and support
+			Attracting new and old players
+			Issues with interfaces
+	Gametypes within UDK
+		Deathmatch
+		Team deathmatch
+		Vehicle CTF
+		Bombing run
+
+
+Powerpoint #2
+	Rules and constraints
+		Additive and subtractive design
+			Why Add mechanics?
+				Note, this can be very costly
+				Ideally, you know about all the mechanics before they enter production, but this doesn't always happen
+				Publisher demand (they give you the moneyz)
+				Changes in the marketplace
+				The game sucks
+				You're making a sequel
+				The brainstorm
+			Why remove mechanics?
+				This can be VERY costly as well
+				Publishing
+				Marketing conditions
+				Fixing bad gameplay
+				Ratings
+				Delivering on or in better tim
+				Checking features against the core checklist
+			Lab - Challenge - Mix a mechanic from an existing board game with another game
+	Game intensity
+		http://www.gamasutra.com/view/feature/132242/gameplay_fundamentals_revisited_.php?print=1
+	The Learning Curve
+		http://thegamedesignforum.com/features/lessons_from_the_new_arcade.html
+	Fulfillment and Rewards
+		Wish fullfilment - http://www.gamasutra.com/view/feature/134246/reward_systems_an_excerpt_from_.php?print=1
+		http://www.gamasutra.com/view/feature/3085/behavioral_game_design.php
+	The “Farmville” effect
+		http://www.gamasutra.com/blogs/MarkNewheiser/20091204/3733/Farmville_Social_Gaming_and_Addiction.php
+
+	
+Using mouse pick for the physics pop
+	Reminderof physics pop
+Mouse pick move an object to a location
+Projectiles (Shooting gallery) - First person shooter 
+Homework - Game prototype : Explosion
+	
+For next time:
+Lab work: Making a variety of different weapons
+Polish Lecture
+Fast creating states, and finished events (ctrl click)
+Enemies (top down arena)
+Being able to detect the player
+	Create enemy cube
+	Add empty radar object
+		Add FSM to it (Called AI: Line of Sight)
+		Have it look at player at all times
+			Look at 
+				Turn off "Keep Vertical"
+			Debug draw
+	Add Raycast to radar
+		Forward Z
+		Store the player in the gameobject
+		Send the hit event
+	Add a new state (Is it the player?)
+		Game object compare Tag
+	Add two events 
+		*Can see the player
+		Can not see the player
+	Add a next frame event to each of these
+		If you don't add the next frame event, it goes into an infinite loop
+	Create a bool on the AI (Player has LOS)
+		Add Set FSM Bool action
+Being able to detect the range
+	Add new FSM to the radar (Called AI: Range )
+		Rename state - In Range
+			Add a Get Distance action
+			Add distance variable
+				Every farme
+			Add float compare action
+				 Every Frame
+			Add a range variable
+			Add Out of Range event
+		Create state - Out of Range
+			Hook it up the same way (Copy/Paste)
+		Add Set FSM Bool action 
+			Add bool for (In Range) to the AI parent
+			DO this every frame
+
+Add movement behavior to the AI
+	Name state ("Idle")
+		Bool all true action
+			Every frame
+	Add chase event
+	Add new state ("Chasing")
+		Smooth look at
+			Keep Vertical ( True)
+		Move towards
+			Keep Vertical ( true)
+		Add two bool test actions
+			Every frame
+			Send event to reset when false only
+	Add Reset event
+		Hook this up as a global transition
+		What are global transitions?
+
+AI Attacking
+	Add Windup state
+		Wait action
+	Add Attack state
+		ITween Move To (.5 seconds)
+			Ease in/out quad
+			Ping pong loop			
+		Wait action ( 1 second)
+			Go to recover state
+	Add recover state
+		Wait for .5 seconds 
+		Send the reset event
+	Add set material changes for color 
+		Blue = Idle
+		Green = chasing
+		Red = Attacking
+	Add SFX
+Lab work - Polish
+
+Next week:
+	In view cone
+	Wandernig
