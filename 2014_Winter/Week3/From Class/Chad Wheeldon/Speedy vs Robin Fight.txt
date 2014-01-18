@@ -1,0 +1,51 @@
+Speedy Actions:
+	Molten Arrow
+		Counters/removes ice effect
+		only counters if played after freeze a rang
+		Does a burn effect
+		1 damage every turn for 2 turns
+	Standard Arrow
+		Good damage attack
+		Deals 3 damage
+	Homing Arrow
+		Tracks target for normal damage
+		Deals 2 damage
+		counters dodge roll
+	Net Arrow
+		Immoblizes the target in a net
+		Skips the targets next attack phase
+	Deflect
+		Attempt to deflects a projectile attack
+		Roll a die to see if the attack was successfully deflected
+		If a 6 is rolled, deflecting has failed and 1 damage is taken
+
+Robin Actions:
+	Flying Ninja Kick
+		Normal damage attack
+		Deals 2 damage
+		Counters Deflect
+	Bat a rang
+		Good damage attack
+		Deals 3 damage
+	Freeze Bat a rang
+		Incases the target in ice
+		Skips the targets next attack phase
+	Explosive Disc thing
+		Counters Homing Arrow
+		Only counters if played after Homing arrow
+		Does burn effect
+		1 damage every turn for 2 turns
+	Dodge roll
+		Attempt to Evade enemy attack
+		Rolls a die to see if the attack was successfully evaded
+		If a 6 is rolled evading failed and 1 damage is taken
+
+Rules:
+	Each player starts with 10 health
+	Each player plays a card from their hand face down
+	Flip over both cards at the same time
+	The player with the round token does their action first
+	Once actions are completed the player who did the most damage receives the round token
+	Return cards to hand and repeat
+
+	A player loses once their health reaches 0

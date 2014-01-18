@@ -1,0 +1,32 @@
+Hero
+Name
+Level.  3 minions = 1 level.  1 hero = 1 level
+Stats(HP/MP/DMG/AP/Movement Speed)
+Abilities(Cooldown)
+Ranged/Melee
+Item Slots(6)
+
+Summoner:
+Summoner Spells/Summoner Masteries
+
+Master YI:
+Level: 1 (max of 4)
+Stats (Level 1: HP(50), Level 2: HP(100), Levl 3: HP(200) , Level 4: HP(350)
+
+Abilties:
+(1) Alpha Strike
+Spend an action.
+Damage all minions and heroes on the board for 50/100/150/200 damage.
+
+(2) Wuju Style
+Spend an action.
+Your next attack deals double/triple/quadruple damage.
+
+(3) Meditation
+Spend an action
+Heal 100 hp for every action remaining.
+
+(4) Ultimate
+Spend an action.  You can attack twice this turn.  If you kill an enemy, restore all action points.
+
+Minions/Experience

@@ -1,0 +1,133 @@
+weapons must be played before using. permanent.
+	bows - 2 
+		- melee weapon 1d6
+		- ranged : discard a stick to use as ranged.
+	
+	daggers - 3 
+		+1 damage
+
+	swords - 1 
+		- melee weapon
+		+3 damage
+
+	spear - 2 
+		- melee weapon
+		+ 2 damage
+
+	stick - 10 in deck
+		- melee weapon
+		- after melee attack with stick, roll d20 - less than 10 discard stick
+
+
+items
+	
+	rations : use
+		- heal 5 hp.
+
+	poison : use 
+		- during attack phase:
+			- if attack is successful, place this card infront of targeted player
+			- if unsuccessful - discard this card.
+		- use when a player uses a ration:
+			- discard that ration, may not take any other actions this turn.
+		- if given to another player during p2p phase and accepted
+			- place this card infront of targeted player.
+		debuffed: player takes an additional 1 damage when resolving the hunger meter.
+			-discard a ration and two other cards to discard this card.
+
+events
+	new day: increase the hunger meter by 1.
+	
+	release dogs: the last half of the players (rounded up) to go this round suffer 4 damage unless they pass an evasion check (15)
+	
+	cornicopia - draw cards from the sponsor deck equal to the number of players left.
+		- each person announces if they are going to the cornicopia event based on turn order.
+		- players choose to:
+			- attack other players, melee combat only
+			- leave
+			- agree to distribute the loot in any way the players left choose to.
+
+
+characters
+	katniss everdeen - archer - starts with bow.
+		sticks on play field do not count towards card count
+		if you gain an stick during your turn draw another sponsor card.
+	
+	peeta mellark - baker - starts with 2 rations.
+		- rations heal an additional 2 hp.
+		- +2 to evasion rolls
+	
+	marvel - spear - starting weapon spear
+		throw spear: treat spear as ranged weapon. 
+			- if player is not killed, roll d20 - < 10 discard spear.
+
+	glimmer - carreer tribute 
+		starts with 1 rations and random weapon.
+		+1 damage
+
+	cato - weapon master - starts game with any weapon.
+	
+	clove - starts with knife.
+		abilities:
+			discard 2 cards to look through the sponsor deck for a knife.
+				shuffle sponsor deck afterwards.
+			throw knife: treat knives as ranged weapon
+				if target is not killed, roll d20:  < 10 discard knife	
+			
+	foxface - theif
+		+2 to scouting rolls.
+		- 2 attack
+		on player interaction, may steal a card at random.
+	
+	rue - climber - starts with 2 additional rations.
+		special: natural climber
+			+1 to scouting rolls
+			does not engage in melee combat.
+			player is not in pool for release dogs event.
+
+	thresh - physical prowess: 25 hp
+			+2 to all damage rolls.
+			when determing turn order, treat player as if he has 2 fewer cards.
+			counter attacks : when a player damages you in melee combat, you may counter attack.
+	
+
+rules:
+
+begining the game:
+	choose characters, one per player.
+	distribute items according to character cards
+	seperate event cards, and sponsor cards, shuffle them into seperate decks.
+
+player with fewest cards goes first (all cards in hand and in play under character count), second fewest second...
+	in the event of a tie, roll to determine turn order.
+
+before the first players turn: 
+	- reveal and resolve the top card of the event deck.
+	- damage each player by amount of tokens on the hunger card
+
+
+players take 3 actions per turn:
+	roll to scout.
+	use characters special ability.
+	play a card.
+	at the end of their turn, players may discard any number of cards.
+
+scout - players roll a d20
+	12 or higher - draw from the sponsor deck
+	16 or higher - player to player interaction (or draw sponsor card)
+		
+p2p - players may attack another player 
+	or may give an item face down to another player
+
+attacking : requires weapon
+	ranged attacks: may not be counter attacked.
+		attacker : d6 damage + modifiers
+		defender : d20 evasion check (10 passes)
+	
+	melee combat:
+		attacker : 1d6 damage + modifiers
+		defender : d20 evasion check (15 passes) on pass may end the combat or counter attack.
+		
+	
+
+

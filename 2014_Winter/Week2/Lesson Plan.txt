@@ -1,0 +1,168 @@
+What game design is not
+
+Types of design
+	World design
+	System design
+	Content design
+	Game writing
+	Level design
+	User Interface
+	
+What is a game?
+	Activity with rules.
+		A form of play often but not always involving conflict, either with other players, with the game itself or with randomness/fate/luck
+		Most games have goals, some don't (sims)
+		Most games have defined start and end points, but not all (D&D and WoW)
+		Most games involve decision making on the part of the player, but not all (chutes and ladders, candy land)
+		A video game is a game that uses a digital video screen of some kind
+What is the core of a game 
+	the single thing gameplay is about
+	The single experience the designer is trying to convey
+	Ratchet and clank series are about blowing stuff up.
+	Go is about territorial acquisition.
+	
+	Core statements are usually written to reflect the core mechanic and sum up what the game is about
+		"The game is about"
+		"The game is the experience of being..."
+		"The game teaches..."
+		"The game simulates the experience of..."
+	
+	Core dynamics
+		Territorial Acquisition (Risk, carcassone, go)
+		Prediction (roulette, rock-paper-scissors)
+		Spatial Reasoning (connect four, tic-tac-toe)
+		Survival (zombicide, sometimes a secondary objective)
+		Destruction (sometimes PvP, FPS games)
+		Building (Settlers of catan, sim city, RPGs)
+		Collection (TCG, magic, dominion, casual games, platformers)
+		Chasing/Evading (pac man, contact sports)
+		Trading (Settlers of catan, Animal crossing and pokemon)
+		Race to the End (Often used in children's games)
+
+Where do ideas come from?
+	Playing lots of games
+	Networking with other designers
+	Everywhere! (movies, books, anime)
+	
+Common terms
+	Feature list
+	Brainstorming
+	Prototype
+	Balance
+	Mechanics
+	Dynamics
+	System
+	Avatar
+	Playtesting
+
+Common terms (digital game design usually)
+	Platform
+	Concept doc - 1-3 pages that provides high level overview of proposed game.
+		Paragraph explaining the theme, demographic breakdown, target audience, genre and intended platforms. 
+		Bullet-point feature list and feature list breakout that explains each of the features in more detail
+		http://designgames.wordpress.com
+	Proposal - 5-20 pages that gives more in-depth view.  Includes budget and time estimations, competitive analysis and expansion plans.  Typically includes mockups or conept art
+		http://designgames.wordpress.com
+	Pitch - Elevator pitch
+	Design document (A livign document that is the bible)
+	Bugs
+	Engine
+	Alpha
+	Beta
+	Gold
+	Game Jam
+	Milestone
+	
+Common terms (non-digital)
+	Game Bits
+	Card Game
+	Board Game
+	Tile Game
+	Dice Game
+
+Approaches to game design (everone has their own approach)
+	Blue-sky
+	Slow boil (theme and settnig given)
+	mechanic driven (ie: katamari damacy)
+	MDA - mechanics dynamics aesthetics
+		Journey, the fun and rules and dynamics
+	IP - Intellectual property (football and movies)
+	Story - Tom clancy
+	Research - flOw by Jenova, researching the concept of flow and dynamic difficulty
+
+Iterative Game Design
+	Iteration is not just doing 'whatever' and then trying more stuff until something shows up, this leads to just more luck based design
+	You should start with some design goals, no matter what (not a clean slate)
+		Get some design goals that aren't changeable
+		Marry these design goals with ones that are
+	It's ok if your first pass is horribly flawed
+	Playtesting is SUPER important (I playtest almost too much)
+	Peer review is critical, as you will get more innovation by involving others.
+	Compared to Up-front design
+		Take an existing model, and have slight variations upon it
+	1. Prototype
+		Make a prototype rapidly
+	2. Playtest
+		Partial or full
+	3. Revise
+		Fortify weaknesses and build on strengths
+	4. Repeat
+		Go back to the prototype and start the next iteration
+
+Constraints on Game design (Digital)
+	Examples:
+		Approximate budget
+		Desired time frame
+		Desired Platform (consoles, multiplayer console, phone)
+	Other questions
+		What is the target auidence
+		Desired rating (ESRB)
+		Desired genre or category
+		Any features you'd like to see
+Non digital constraints
+	Cost to manufacture per unit
+	Physical dimensions (board, tabletop, small/large pieces)
+	Publisher
+	Timing
+			
+Analog vs Digital prototyping
+
+The publisher/developer cycle; 
+	How does iterative game design play into the publisher/developer cycle
+	Real world examples of bethesda and control schemes
+	Cutting features to meet milestones
+
+“Perfect” Gameplay vs “Great” gameplay;
+	We would like to make the perfect game, but that would take forever
+	How can you be happy with 'just' a 'great' game?
+	
+Analog prototype with class as a whole
+	modding Diablo or Mario Kart (RPG) 
+		How do you turn Diablo into a board/analog game
+
+Extra credit, who can come up with the best RTS in the brief time allotted
+	modding Starcraft/Warcraft III (RTS)
+		Custom maps
+		Tower defense
+		Hero RPG game types
+	Make these into a board game
+
+Overcoming designer's block
+	Make a resource limited or unlimited
+	Introduce more interaction, allowing players to affect one another
+	Mess with the play order
+	Kill a rule
+	Use a rule of two (double or halve a resource)
+Analog game creation in class with cards/dice/tokens
+	Pick a subject/theme - conflict
+	
+	The rules; these need only be sketchy and in a rough format, but should include:
+	o  The game's title (and subtitle)
+	o  Your name
+	o  A brief introductory paragraph as to what the game is about (i.e., the topic it covers)
+	o  The sequence of play
+	o  An explanation about how the components work together (i.e., what the unit values mean, how the terrain works, etc.)
+	o  The core systems and mechanics as briefly explained rules
+
+modding UDK
+	Everything!

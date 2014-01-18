@@ -27,4 +27,6 @@ Change War:
 		Be able to steal cards
 		Game is over when all cards are gone
 
+Homework:
+	Explain how to write a design document
 Field trip to blizzard

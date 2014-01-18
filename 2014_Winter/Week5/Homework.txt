@@ -1,0 +1,1 @@
+In one week, prototype the gameplay for somethign that involves health/dying.	Examples:		Healbot		

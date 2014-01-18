@@ -1,0 +1,10 @@
+Present your game
+	Feedback - Positive/Negative
+	
+How to hide the labels
+Finish lecture on AI
+	Cone of vision
+	Setting up the AI as a prefab
+		Setting up variables for the AI
+	AI Shooting
+Voting on game theme

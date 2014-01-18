@@ -1,0 +1,30 @@
+What does prototyping mean to you
+ prerequisite class survey
+introductions and favorite game and why you got into games
+Powerpoint:
+
+Personal background; 
+
+Why am I teaching?
+How do you make a game like World of Warcraft.  Break the problem down
+Why are prototypes important
+
+Explain course subject and methodologies; 
+	* Analog Games
+	* UDK
+	* GAD + VGP student focus
+	* How everything applies to the game industry
+	* Explaining two week cycle for making game.  Starting on Week 3 with unity
+
+Q&A questions; 
+Design docs
+Game development life cycle
+
+Analog Prototype:
+War as a card game (LAB)
+Change War:
+	Requirement
+		Be able to steal cards
+		Game is over when all cards are gone
+
+Field trip to blizzard
