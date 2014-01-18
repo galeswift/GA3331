@@ -1,11 +1,12 @@
 What does prototyping mean to you
  prerequisite class survey
-introductions and favorite game and why you got into games
-Powerpoint:
+Introductions
+	- Name, Major, Why are you at thsi school, favorite game, what do you hope to learn
 
 Personal background; 
 
 Why am I teaching?
+
 How do you make a game like World of Warcraft.  Break the problem down
 Why are prototypes important
 
@@ -15,7 +16,8 @@ Explain course subject and methodologies;
 	* GAD + VGP student focus
 	* How everything applies to the game industry
 	* Explaining two week cycle for making game.  Starting on Week 3 with unity
-
+	* Recorded lectures
+	* Email/call me whenever, turnaround time of about a day or two
 Q&A questions; 
 Design docs
 Game development life cycle
