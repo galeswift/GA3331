@@ -1,0 +1,31 @@
+Advanced War1:
+
+	Rules:
+	- When a player gets all for Aces, the player gets to choose to remove all the Aces from their deck
+	(out of play, through the rest of the game) and it gives all the cards in their deck, 1 number boost
+	(example: 2 hearts == 3 hearts, 10 hearts == Jack of hearts, king of hearts == Ace of Hearts)
+	- When a player gains cards, it goes into a pile
+
+	When in war:
+	- the player has the losing card, they can draw another 3 cards, and place another card
+	in replacement, with 1 number lower than the original
+	- player can give the player 1 card to see the other player(s) hidden cards, or 2 to see 
+	your own cards, and has a choice to surrender the same card, in order to keep the 3 hidden cards.
+
+	Win/loss:
+  	- If a player has a higher card, the lower card(s) go to the owner of the higher card.
+	- If a player runs out of cards, the player loses
+
+	Strategy:
+	- Can predict the winning card, if so, player gets the other card of the other player(s) deck, if not
+	the other player(s) gets 2 of the losing player's deck
+	- Can call in reinforcements anytime(which player calls it, draws another card, the number value is in half
+	plus the already playing card) if player that called reinforcements loses, all the cards
+	go to the winner of the round (can choose up to 10 cards of reinforcements)
+	
+	Number Values:
+	- Jacks:  11
+	- Queens: 12
+	- Kings:  13
+	- Aces:   14
+	
